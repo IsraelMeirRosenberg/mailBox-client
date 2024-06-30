@@ -1,0 +1,54 @@
+.main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.divExternalTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    width: 100%;
+    border-bottom: 1px solid #DEE1E6;
+}
+
+.mailBox {
+    display: flex;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.mailBox>button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.divTypeEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #aeaeae;
+}
+
+.link:hover {
+    color: #00a389;
+}
+
+.link.active {
+    color: #00a389;
+}
+
+.newMsgBtn {
+    text-decoration: none;
+    color: white;
+
+}

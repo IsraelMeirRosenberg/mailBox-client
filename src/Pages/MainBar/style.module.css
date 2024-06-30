@@ -1,0 +1,80 @@
+.main {
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 70px 250px 350px 1fr;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-right: 1px solid #DEE1E6;
+}
+
+
+.listIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #a2aab4;
+    justify-content: center;
+    width: 100%;
+}
+
+.externalDivIcon.active {
+    color: #00a389;
+    /* background-color: red; */
+
+    border-right: 3px solid #00A389;
+}
+
+
+
+
+.externalDivIcon:hover {
+    color: #00a389;
+    border-right: 3px solid #00A389;
+}
+
+.externalDivIcon:hover>.internalDivIcon {
+    background-color: var(--soft-gray-color);
+
+}
+
+.externalDivIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .05s ease-in-out all;
+    cursor: pointer;
+    border: 3px solid white;
+    height: 40px;
+    width: 100%;
+    color: #a2aab4;
+}
+
+
+
+.internalDivIcon {
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+.divUserImg {
+    width: 100%;
+}
+
+.userImg {
+    width: 85%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}

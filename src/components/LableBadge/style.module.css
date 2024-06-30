@@ -1,0 +1,20 @@
+.main {
+    position: relative;
+    height: 42px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+.in {
+    z-index: -1;
+    position: absolute;
+    height: 33.53px;
+    width: 33.7px;
+    border-radius: 7px;
+    transform: rotate(45deg);
+    right: -10px;
+    top: 4.3px;
+}

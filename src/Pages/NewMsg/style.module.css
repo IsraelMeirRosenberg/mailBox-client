@@ -1,0 +1,215 @@
+.layout {
+    grid-column: span 2;
+    border-left: 1px solid #DEE1E6;
+    border-top-left-radius: 8px;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.title {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #DEE1E6;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    width: 60%;
+}
+
+.input>textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 1rem;
+}
+
+
+
+.fontText {
+    width: 15%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: .5rem;
+    gap: 1rem;
+    border-right: 1px solid #cfcdcd;
+}
+
+.listTextBtns {
+    width: 100%;
+    border-top: 1px solid #cfcdcd;
+    display: flex;
+}
+
+.content>form {
+    border-radius: 8px;
+    border: 1px solid #cfcdcd;
+}
+
+.btnsText>button {
+    background-color: inherit;
+    color: #aeaeae;
+    border: none;
+}
+
+.btnsText>button:hover {
+    color: #00a389;
+    cursor: pointer;
+}
+
+.listBtnsSideText {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+.btnSideText>button {
+    background-color: inherit;
+    border: none;
+    color: #aeaeae;
+    font-size: large;
+}
+
+.btnSideText>button:hover {
+    color: #00a389;
+    cursor: pointer;
+}
+
+.divSendBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.left {
+    display: flex;
+    gap: 1rem;
+    color: #aeaeae;
+    justify-content: center;
+    align-items: center;
+}
+
+.left>svg {
+    font-size: large;
+}
+
+.left>svg:hover {
+    cursor: pointer;
+    color: #00a389;
+}
+
+.right>svg:hover {
+    cursor: pointer;
+    color: #00a389;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aeaeae;
+    width: 150px;
+    gap: 1rem;
+}
+
+.sendBtn {
+    width: 80%;
+}
+
+.sendBtn>svg:hover {
+    cursor: pointer;
+
+}
+
+.right>svg {
+    font-size: xx-large;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.oneInput {
+    display: flex;
+
+}
+
+
+.oneInput>input {
+    width: 100%;
+    border: 1px solid #cfcdcd;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.oneInput>input::placeholder {
+    padding: .5rem;
+}
+
+.oneInput>input:focus {
+    outline: 2px solid #00a389;
+    border-radius: 4px;
+}
+
+.oneInput>div>input {
+    width: 100%;
+    border: 1px solid #cfcdcd;
+    border-radius: 4px;
+}
+
+.oneInput>div>input:focus {
+    outline: 2px solid #00a389;
+    border-radius: 4px;
+}
+
+.oneInput>div {
+    display: flex;
+}
+
+.oneInput>label {
+    width: 80px;
+    font-weight: 600;
+}
+
+.oneInput>div>button {
+    background-color: #00a389;
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    border-radius: 5px;
+    margin-left: .5rem;
+}
+
+.oneInput>div>button:hover {
+    cursor: pointer;
+    background-color: #018872;
+
+}
+
+.p {
+    font-size: large;
+    font-weight: 500;
+}

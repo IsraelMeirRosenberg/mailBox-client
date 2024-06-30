@@ -1,0 +1,18 @@
+.layout {
+    background-color: var(--green-color);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: large;
+}
+
+.layout:hover {
+    cursor: pointer;
+    background-color: #018872;
+}

@@ -1,0 +1,180 @@
+.layout {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    height: 100%;
+    padding: 3.3rem 2rem;
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.listBtns {
+    display: flex;
+    gap: 1rem;
+    height: 35px;
+}
+
+.optionBtn {
+    width: 35px;
+    border: none;
+    background-color: inherit;
+    font-size: large;
+    cursor: pointer;
+    color: #aeaeae;
+}
+
+.optionBtn:hover {
+    color: #00a389;
+}
+
+.nameTag {
+    color: #aeaeae;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.title {
+    height: 70px;
+
+}
+
+.msg {
+    border-bottom: 1px solid #cfcdcd;
+    width: 100%;
+
+}
+
+.listEmails {
+    width: 100%;
+    height: 220px;
+    overflow: auto;
+}
+
+.input>textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 1rem;
+}
+
+
+
+.fontText {
+    width: 15%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-left: .5rem;
+    gap: 1rem;
+    border-right: 1px solid #cfcdcd;
+}
+
+.listTextBtns {
+    width: 100%;
+    border-top: 1px solid #cfcdcd;
+    display: flex;
+}
+
+.bottom>form {
+    border-radius: 8px;
+    border: 1px solid #cfcdcd;
+    margin-top: .5rem;
+}
+
+.btnsText>button {
+    background-color: inherit;
+    color: #aeaeae;
+    border: none;
+}
+
+.btnsText>button:hover {
+    color: #00a389;
+    cursor: pointer;
+}
+
+.listBtnsSideText {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+.btnSideText>button {
+    background-color: inherit;
+    border: none;
+    color: #aeaeae;
+    font-size: large;
+}
+
+.btnSideText>button:hover {
+    color: #00a389;
+    cursor: pointer;
+}
+
+.divSendBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.left {
+    display: flex;
+    gap: 1rem;
+    color: #aeaeae;
+    justify-content: center;
+    align-items: center;
+}
+
+.left>svg {
+    font-size: large;
+}
+
+.left>svg:hover {
+    cursor: pointer;
+    color: #00a389;
+}
+
+.right>svg:hover {
+    cursor: pointer;
+    color: #00a389;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aeaeae;
+    width: 150px;
+    gap: 1rem;
+}
+
+.sendBtn {
+    width: 80%;
+}
+
+.sendBtn>svg:hover {
+    cursor: pointer;
+
+}
+
+.right>svg {
+    font-size: xx-large;
+}

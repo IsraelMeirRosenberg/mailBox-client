@@ -1,0 +1,23 @@
+.sendBtn {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: var(--green-color);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    gap: 12px;
+    font-size: large;
+    padding: 1rem;
+}
+
+.sendBtn>div {
+    padding-top: 5px;
+}
+
+.sendBtn:hover {
+    background-color: #018872;
+}

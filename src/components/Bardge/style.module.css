@@ -1,0 +1,14 @@
+.container {
+    height: 30px;
+    border-radius: 7px;
+    width: 35px;
+    background-color: var(--green-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Kumbh Sans;
+    font-weight: 800;
+    font-size: large;
+    box-shadow: var(--box-shadow);
+}

@@ -1,0 +1,25 @@
+.form {
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.input {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    padding-left: 8px;
+    background-color: #dee1e6;
+    font-weight: 600;
+    border: none;
+}
+
+.btn {
+    position: absolute;
+    right: 10px;
+    border: none;
+    background-color: inherit;
+    top: 50%;
+    translate: 0 -47%;
+    cursor: pointer;
+}
